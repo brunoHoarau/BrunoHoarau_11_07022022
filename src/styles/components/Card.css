@@ -1,0 +1,18 @@
+
+.card {
+  display: flex;
+  align-items: flex-end;
+  box-sizing: content-box;
+  min-height: 255px;
+  border-radius: 10px;
+  background-size: cover;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 15px;
+}
+

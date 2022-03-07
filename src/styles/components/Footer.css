@@ -1,0 +1,14 @@
+.footer {display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 210px;
+}
+
+.footer > img {
+  height: 40px;
+  margin: auto;
+}
+

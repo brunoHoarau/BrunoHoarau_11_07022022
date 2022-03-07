@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #FF6060;
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.header-logo > img {
+  height: 47px;
+}
+
+@media (min-width: 1024px) {
+  nav {
+    width: 20%;
+  }
+}

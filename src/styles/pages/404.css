@@ -1,0 +1,46 @@
+.main404{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 75vh;
+  color: #ff6060;
+}
+
+.component404 {
+  margin: auto;
+}
+
+.number404 {
+  font-size: 96px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.text404{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.gobackhome{
+  color: #ff6060;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  .number404 {
+    font-size: 288px;
+  }
+
+  .text404{
+    font-size: 36px;
+  }
+
+  .gobackhome{
+    color: #ff6060;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+}
